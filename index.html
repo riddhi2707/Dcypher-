@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<h1>Dcypher</h1>  <!--Heading tags-->
+<h2>Dcypher</h2>
+<h3>Dcypher</h3>
+<h4>Dcypher</h4>
+<h5>Dcypher</h5>
+<h6>Dcypher</h6>
+
+<p>Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web
+ browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as 
+ JavaScript.Web browsers receive HTML documents from a web server or from local storage and render the 
+ documents into multimedia web pages. HTML describes the structure of a web page semantically and originally
+ included cues for the appearance of the document. </p> <!--paragraph tag-->
+
+ <a href="https://www.google.com/"> Go to Google</a> <!--anchor tag-->
+
+ <p>Go to Google <a href="https://www.google.com/"> Click here</a></p>
+ <!--to write text before the link to show the way, use a tag inside p tag-->
+
+ <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Wikipedia</a>
+ <!--to open link in other tab, use target-->
+
+ <p>The html tag represents the root of an HTML document. The html tag is the container for all other HTML
+ elements (except for the ! DOCTYPE> tag). Note: You should always include the lang attribute inside the 
+ html tag, to declare the language of the Web page. <br> This is meant to assist search engines and browsers.
+ </p>  <!--br tag breaks a line-->
+
+ <hr>  <!--horizontal rule (block level)-->
+
+     <!--html entities-->
+
+ <strong>Character entities &lt;are used to&gt; display reserved characters in HTML</strong>
+ <p>Hi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pappu</p>
+
+ <pre>Hi!           girl</pre>
+ <!--it shows exactly the same text as written but in smaller size-->
+
+ <p><strong>Hypertext Markup Language (HTML)</strong> is the standard markup language for documents designed 
+    to be <em>displayed in a</em> web browser. It can be assisted by <span class="hi" id="gs">technologies 
+    such as Cascading Style </span> Sheets (CSS) and <span class="hi">scripting languages such as</span> 
+    JavaScript.<small>Web browsers receive</small> HTML documents from a web server or from local storage and
+    render the documents 10<sup>2</sup> into multimedia web pages. HTML describes<sub>22222</sub> the 
+    structure of a webpage semantically and originally included cues for the <marquee>appearance of the 
+    document.</marquee></p>
+
+    <!--<b> and <strong> to bold the text. These are inline-->
+    <!--<i> and <em> to get the italics. These are inline-->
+    <!--<small> tag reduces font size of elclosed text. inline-->
+    <!--<sup> and <sub> are used for superscript and subsrcipt. inline-->
+    <!--<marquee> for floating text. block-->
+
+    <p><div id="div1" class="a">Hypertext Markup Language is the standard markup language for documents 
+        designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style
+        Sheets and scripting languages such as JavaScript.</div></p>
+
+    <p><div class="a">Hypertext Markup Language is the standard markup language for documents designed to be
+         displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and 
+         scripting languages such as JavaScript. </div></p>
+    
+    <!--Html lists-->
+    <!--two types
+    1. ordered
+    2. unordered-->
+
+    <!--Unordered list-->
+
+    <ul type="square">
+        <li>Hi</li>
+        <li>Nice pic</li>
+        <li><a href="https://en.wikipedia.org/wiki/HTML" target="_blank">Helluu</a></li>
+    </ul>
+
+    <!--Ordered list-->
+
+    <ol type="A">
+        <li>how to create an html file</li>
+        <li>make a new file</li>
+        <li>give .html extension to it</li>
+    </ol>
+
+    <!--Nested list-->
+    <ul>
+        <li>cats</li>
+        <li>cows</li>
+        <li>dogs
+            <ol>
+                <li>larador</li>
+                <li>pitbull</li>
+                <li>pug</li>
+            </ol>
+         </li>      
+    </ul>
+
+    <hr>
+
+    <a href="https://en.wikipedia.org/wiki/Badminton" target="_blank"><img src="./Badminton.jpg" width="300"
+       alt="Outdoor game"></a>
+    <video src="./Earth.mp4" poster="./Badminton.jpg" controls loop muted width="300"></video>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wQ94dtcAcLY" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+     <hr>
+
+   <table border="2px">
+         <thead> 
+             <tr> <!-- table data--> 
+                 <th>Name</th> <!--table heading-->
+                 <th>Money</th>
+             </tr>     
+        </thead>
+        <tbody>
+             <tr>
+                 <td>Pulkit</td> <!-- table data-->
+                 <td>100$</td>
+             </tr>
+             <tr>
+                 <td>Naman</td>
+                 <td>450$</td>
+             </tr>
+        </tbody>
+        <tfoot>
+             <tr>
+                  <td colspan="2"> Total: 550$</td>
+             </tr>
+        </tfoot>
+   </table> 
+
+    <!--<thead> <tbody> and <tfoot> tags are used just to make the table code presentable to the user-->
+    <!--<tr> tag is used to add a row to table-->
+    <!--<td> tag is used to enter data in a particular row-->
+    <!--<th> tag is used to highlight the headline of table in bold-->
+    <!--<colspan> and <rowspan> ae used to merge 2 columns and rows respectively-->
+
+        <br>
+        <hr><br></hr>        
+        <table border="2px">
+             <tr>
+                 <th>Month</th>
+                 <th>Monthly savings</th>
+                 <th>Total saving</th>
+             </tr>
+             <tr>
+                 <td>Jan</td>
+                 <td>100$</td>
+                 <td rowspan="2">180$</td>
+             </tr>
+              <tr>
+                  <td>Feb</td>
+                  <td>80</td>
+             </tr>
+        </table>
+
+ </body>
+ </html>
